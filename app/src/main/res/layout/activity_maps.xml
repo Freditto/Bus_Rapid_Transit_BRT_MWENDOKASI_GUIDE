@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity"
+        />
+
+
+
+
+    <include
+        android:id="@+id/bottomsheet"
+        layout="@layout/bottom_sheet" />
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/routrFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/routeimageimg"
+            app:fabSize="normal"
+            app:backgroundTint="@color/material_grey_200"
+            app:layout_anchor="@id/bottomsheet"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+
+
+            />
+
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnToggle"
+        app:fabSize="normal"
+        app:borderWidth="0dp"
+        android:src="@drawable/routem"
+        app:backgroundTint="@color/material_blue_400"
+        app:layout_anchor="@id/bottomsheet"
+        app:layout_anchorGravity="top|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="visible" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/viewallbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        android:src="@drawable/frontbusview"
+        app:backgroundTint="@color/material_white"
+        app:layout_anchor="@id/routrFab"
+        app:layout_anchorGravity="top"
+        android:layout_gravity="top|end"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+         />
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+

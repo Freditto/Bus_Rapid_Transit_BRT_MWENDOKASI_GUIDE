@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">`BRT</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="options">Options</string>
+    <string name="orientation">Orientation</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="vertical">Vertical</string>
+    <string name="scallop">Scallop</string>
+    <string name="background_color">Background Color</string>
+    <string name="ticket_options">Ticket Options</string>
+    <string name="border">Border</string>
+    <string name="divider">Divider</string>
+    <string name="radius">Radius</string>
+    <string name="elevation">Elevation</string>
+    <string name="position_percent">Position(in %)</string>
+    <string name="color">Color</string>
+    <string name="width">Width</string>
+    <string name="padding">Padding</string>
+    <string name="enable">Enable</string>
+    <string name="type">Type</string>
+    <string name="dash_length">Dash Length</string>
+    <string name="dash_gap">Dash Gap</string>
+    <string name="ticket_attributes">Ticket Attributes</string>
+    <string name="movie_title"><![CDATA[Fantastic Beast & Where to Find Them]]></string>
+    <string name="movie_duration">2h 13min</string>
+    <string name="movie_genre">Adventure, Fantasy, Action</string>
+    <string name="movie_ticket_number">400&#8211;2000&#8211;2020</string>
+    <string name="date">Date</string>
+    <string name="movie_date">01&#8211;03&#8211;2017</string>
+    <string name="time">Time</string>
+    <string name="movie_time">23:30</string>
+    <string name="seat">Seat</string>
+    <string name="movie_seat">C5-C8</string>
+    <string name="corners">Corners</string>
+    <string name="example">Example</string>
+    <string name="background">Background</string>
+
+    <string-array name="divider_type">
+        <item>Normal</item>
+        <item>Dashed</item>
+    </string-array>
+
+    <string-array name="scallop_position">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="corner_type">
+        <item>Normal</item>
+        <item>Rounded</item>
+        <item>Scallop</item>
+    </string-array>
+
+
+    <string-array name="destination_route_name">
+        <item>Kimara</item>
+        <item>Ubungo</item>
+        <item>Kivukoni</item>
+        <item>Morrocco</item>
+        <item>Gerezani</item>
+        <item>Muhimbili</item>
+    </string-array>
+
+
+    <string-array name="distance_route_name">
+        <item>7km</item>
+        <item>4km</item>
+        <item>9km</item>
+        <item>12km</item>
+        <item>6km</item>
+        <item>4km</item>
+    </string-array>
+
+</resources>
