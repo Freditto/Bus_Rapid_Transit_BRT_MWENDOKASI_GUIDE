@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/aboutmini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/contactcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutmini"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        app:cardElevation="5dp">
+
+
+            <RelativeLayout
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/madeuser"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/usermade"/>
+
+                <TextView
+                    android:id="@+id/contacttitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorText"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/madeuser"
+                    android:layout_marginLeft="16dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/contactsubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Developer"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/madeuser"
+                    android:layout_marginLeft="16dp"
+                    android:layout_below="@id/contacttitle"/>
+
+            </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/licencetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="License"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/contactcard"
+        />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/termscard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        app:cardElevation="5dp"
+        android:layout_below="@id/licencetxt">
+
+
+        <RelativeLayout
+            android:id="@+id/termzview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/termzz"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/termscondition"/>
+
+            <TextView
+                android:id="@+id/termzztxttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms and Policy"
+                android:textSize="18dp"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/termzz"
+                android:layout_marginLeft="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Legals"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/termzz"
+                android:layout_marginLeft="16dp"
+                android:layout_below="@id/termzztxttitle"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/sharetxtmini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let other know the app"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/termscard"/>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/sharecard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        app:cardElevation="5dp"
+        android:layout_below="@id/sharetxtmini">
+
+        <RelativeLayout
+            android:id="@+id/shareview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/shareimg"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/share"/>
+
+            <TextView
+                android:id="@+id/helptitled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="18dp"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/shareimg"
+                android:layout_marginLeft="16dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tell a friend"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/shareimg"
+                android:layout_marginLeft="16dp"
+                android:layout_below="@id/helptitled"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:id="@+id/busonback"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/backbusview"
+            />
+
+        <TextView
+            android:id="@+id/aboutTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metro"
+            android:textStyle="bold"
+            android:shadowColor="@color/material_black"
+            android:layout_toRightOf="@id/busonback"
+            android:textSize="36dp"/>
+
+        <TextView
+            android:id="@+id/aboutsubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BRT \nGuide \nSystem"
+            android:layout_toRightOf="@id/busonback"
+            android:layout_below="@id/aboutTitle"
+            android:textColor="@color/colorText"/>
+
+
+        <TextView
+            android:id="@+id/aboutversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0 Beta"
+            android:layout_toRightOf="@id/busonback"
+            android:layout_below="@id/aboutsubtitle"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorText"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
