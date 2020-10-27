@@ -17,10 +17,10 @@
         android:layout_centerInParent="true"/>
 
     <TextView
-        android:id="@+id/subheader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="City Metro Guide"
+        android:text="City Metro "
+        android:textSize="34dp"
         android:textColor="@color/material_black"
         android:layout_centerInParent="true"
         android:layout_below="@id/header"/>
